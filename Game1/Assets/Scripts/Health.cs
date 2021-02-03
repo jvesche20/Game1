@@ -31,8 +31,8 @@ public class Health : MonoBehaviour
         }
         if (lives == 0)
         {
-            // end the game 
-            // LoadScene(end);
+            
+            LoadScene("Lose Screen");
         }
         
     }
